@@ -13,6 +13,16 @@ Features
 - Semantic Checks: The compiler performs semantic checks on the AST to ensure the program adheres to the language's semantics. This stage ensures that the code is consistent and free from errors or inconsistencies.
 - Code Generation: Once the semantic checks pass, the compiler generates equivalent HTML, CSS, and JavaScript code based on the AST. It leverages helper libraries such as Closure Compiler, Jsoup-1.16.1, and Commons-IO-2.12.0 to optimize and facilitate file creation and writing operations.
 
+Dependencies
+------------
+
+The FlutterX Compiler has the following dependencies:
+
+- Antler4: The Antler tool is used for generating the parse tree from the custom language source code. Make sure to install and configure Antler according to its documentation.
+- Closure Compiler: Closure Compiler is a JavaScript optimization tool used by the compiler to optimize and minify the generated JavaScript code. Ensure that Closure Compiler is installed and accessible in the system's PATH.
+- Jsoup-1.16.1: Jsoup is a Java library used by the compiler to manipulate HTML content during the code generation process. Add the Jsoup-1.16.1 library to your project's classpath.
+- Commons-IO-2.12.0: Commons IO is a Java library used by the compiler for file-related operations, such as creating and writing files. Include the Commons-IO-2.12.0 library in your project's classpath.
+
 Compiler Design (class Diagram)
 --------
 ![main Structe](https://github.com/Twfek-Ajeneh/FlutterX-Compiler/assets/92256265/abd97200-d459-45a8-8af0-cffcf6b30110)
