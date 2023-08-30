@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="closure-compiler-v20200719">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../closure-compiler-v20200719.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../closure-compiler-v20200719.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../closure-compiler-v20200719.jar!/jsinterop/base/super" />
+    </SOURCES>
+  </library>
+</component>
